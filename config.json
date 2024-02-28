@@ -51,13 +51,6 @@
                 "base-url": "{url}/src/commit/{rev}/{path}{anchor}"
             }
         },
-        "codeberg.org_mazhe_harbour-kaidan": {
-            "ms-between-poll": 86400000,
-            "url": "https://codeberg.org/mazhe/harbour-kaidan",
-            "url-pattern": {
-                "base-url": "{url}/src/commit/{rev}/{path}{anchor}"
-            }
-        },
         "codeberg.org_nephros_harbour-fbjail": {
             "ms-between-poll": 86400000,
             "url": "https://codeberg.org/nephros/harbour-fbjail",
@@ -1732,6 +1725,10 @@
         "github.com_lizardK_cordova-sailfish": {
             "ms-between-poll": 86400000,
             "url": "https://github.com/lizardK/cordova-sailfish"
+        },
+        "github.com_llelectronics_filecat" : {
+            "ms-between-poll" : 86400000,
+            "url" : "https://github.com/llelectronics/filecat"
         },
         "github.com_llelectronics_noto": {
             "ms-between-poll": 86400000,
