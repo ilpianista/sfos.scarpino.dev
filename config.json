@@ -1,0 +1,3068 @@
+{
+    "max-concurrent-indexers" : 2,
+    "dbpath" : "data",
+    "title" : "SailfishOS Hound",
+    "health-check-uri" : "/healthz",
+    "vcs-config" : {
+        "git" : {
+            "detect-ref" : true
+        }
+    },
+    "repos" : {
+        "codeberg.org_blizzz_harbour-divoc": {
+            "ms-between-poll": 86400000,
+            "url": "https://codeberg.org/blizzz/harbour-divoc",
+            "url-pattern": {
+                "base-url": "{url}/src/commit/{rev}/{path}{anchor}"
+            }
+        },
+        "codeberg.org_blizzz_harbour-nextcloud-talk": {
+            "ms-between-poll": 86400000,
+            "url": "https://codeberg.org/blizzz/harbour-nextcloud-talk",
+            "url-pattern": {
+                "base-url": "{url}/src/commit/{rev}/{path}{anchor}"
+            }
+        },
+        "codeberg.org_elfio_harbour-BuStopSevilla": {
+            "ms-between-poll": 86400000,
+            "url": "https://codeberg.org/elfio/harbour-BuStopSevilla",
+            "url-pattern": {
+                "base-url": "{url}/src/commit/{rev}/{path}{anchor}"
+            }
+        },
+        "codeberg.org_elfio_harbour-dice": {
+            "ms-between-poll": 86400000,
+            "url": "https://codeberg.org/elfio/harbour-dice",
+            "url-pattern": {
+                "base-url": "{url}/src/commit/{rev}/{path}{anchor}"
+            }
+        },
+        "codeberg.org_jojo__harbour-deepfish": {
+            "ms-between-poll": 86400000,
+            "url": "https://codeberg.org/jojo_/harbour-deepfish",
+            "url-pattern": {
+                "base-url": "{url}/src/commit/{rev}/{path}{anchor}"
+            }
+        },
+        "codeberg.org_jojo__harbour-openai": {
+            "ms-between-poll": 86400000,
+            "url": "https://codeberg.org/jojo_/harbour-openai",
+            "url-pattern": {
+                "base-url": "{url}/src/commit/{rev}/{path}{anchor}"
+            }
+        },
+        "codeberg.org_mazhe_harbour-kaidan": {
+            "ms-between-poll": 86400000,
+            "url": "https://codeberg.org/mazhe/harbour-kaidan",
+            "url-pattern": {
+                "base-url": "{url}/src/commit/{rev}/{path}{anchor}"
+            }
+        },
+        "codeberg.org_nephros_harbour-fbjail": {
+            "ms-between-poll": 86400000,
+            "url": "https://codeberg.org/nephros/harbour-fbjail",
+            "url-pattern": {
+                "base-url": "{url}/src/commit/{rev}/{path}{anchor}"
+            }
+        },
+        "codeberg.org_nephros_install-history": {
+            "ms-between-poll": 86400000,
+            "url": "https://codeberg.org/nephros/install-history",
+            "url-pattern": {
+                "base-url": "{url}/src/commit/{rev}/{path}{anchor}"
+            }
+        },
+        "codeberg.org_nephros_ladidah": {
+            "ms-between-poll": 86400000,
+            "url": "https://codeberg.org/nephros/ladidah",
+            "url-pattern": {
+                "base-url": "{url}/src/commit/{rev}/{path}{anchor}"
+            }
+        },
+        "codeberg.org_nephros_linktoclip": {
+            "ms-between-poll": 86400000,
+            "url": "https://codeberg.org/nephros/linktoclip",
+            "url-pattern": {
+                "base-url": "{url}/src/commit/{rev}/{path}{anchor}"
+            }
+        },
+        "codeberg.org_nephros_neuntrainer": {
+            "ms-between-poll": 86400000,
+            "url": "https://codeberg.org/nephros/neuntrainer",
+            "url-pattern": {
+                "base-url": "{url}/src/commit/{rev}/{path}{anchor}"
+            }
+        },
+        "codeberg.org_nephros_systemd-watcher": {
+            "ms-between-poll": 86400000,
+            "url": "https://codeberg.org/nephros/systemd-watcher",
+            "url-pattern": {
+                "base-url": "{url}/src/commit/{rev}/{path}{anchor}"
+            }
+        },
+        "git.sr.ht_aerique_coinfest": {
+            "ms-between-poll": 86400000,
+            "url": "https://git.sr.ht/~aerique/coinfest",
+            "url-pattern": {
+                "base-url": "{url}/tree/{rev}/item/{path}{anchor}"
+            }
+        },
+        "git.sr.ht_aerique_pusfofefe": {
+            "ms-between-poll": 86400000,
+            "url": "https://git.sr.ht/~aerique/pusfofefe",
+            "url-pattern": {
+                "base-url": "{url}/tree/{rev}/item/{path}{anchor}"
+            }
+        },
+        "git.sr.ht_fabrixxm_harbour-friendly": {
+            "ms-between-poll": 86400000,
+            "url": "https://git.sr.ht/~fabrixxm/harbour-friendly",
+            "url-pattern": {
+                "base-url": "{url}/tree/{rev}/item/{path}{anchor}"
+            }
+        },
+        "github.com_0312birdzhang_cookwithme": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/0312birdzhang/cookwithme"
+        },
+        "github.com_0312birdzhang_harbour-aitizhijia": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/0312birdzhang/harbour-aitizhijia"
+        },
+        "github.com_0312birdzhang_harbour-blogofwy": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/0312birdzhang/harbour-blogofwy"
+        },
+        "github.com_0312birdzhang_harbour-cnbeta": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/0312birdzhang/harbour-cnbeta"
+        },
+        "github.com_0312birdzhang_harbour-diyimg": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/0312birdzhang/harbour-diyimg"
+        },
+        "github.com_0312birdzhang_harbour-dota2Almanac": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/0312birdzhang/harbour-dota2Almanac"
+        },
+        "github.com_0312birdzhang_harbour-dotafish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/0312birdzhang/harbour-dotafish"
+        },
+        "github.com_0312birdzhang_harbour-hitokoto": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/0312birdzhang/harbour-hitokoto"
+        },
+        "github.com_0312birdzhang_harbour-kuaidi": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/0312birdzhang/harbour-kuaidi"
+        },
+        "github.com_0312birdzhang_harbour-lunarcalendar": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/0312birdzhang/harbour-lunarcalendar"
+        },
+        "github.com_0312birdzhang_harbour-meijumao": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/0312birdzhang/harbour-meijumao"
+        },
+        "github.com_0312birdzhang_harbour-pygametest": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/0312birdzhang/harbour-pygametest"
+        },
+        "github.com_0312birdzhang_harbour-python3ftp": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/0312birdzhang/harbour-python3ftp"
+        },
+        "github.com_0312birdzhang_harbour-sailfishclub": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/0312birdzhang/harbour-sailfishclub"
+        },
+        "github.com_0312birdzhang_harbour-simplecrop-test": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/0312birdzhang/harbour-simplecrop-test"
+        },
+        "github.com_0312birdzhang_harbour-souniaoime": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/0312birdzhang/harbour-souniaoime"
+        },
+				"github.com_0312birdzhang_harbour-squid" : {
+						"url" : "https://github.com/0312birdzhang/harbour-squid",
+						"ms-between-poll" : 86400000
+				},
+        "github.com_0312birdzhang_harbour-swingcopters": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/0312birdzhang/harbour-swingcopters"
+        },
+        "github.com_0312birdzhang_harbour-webappdemo": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/0312birdzhang/harbour-webappdemo"
+        },
+        "github.com_0312birdzhang_label-show-image-demo": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/0312birdzhang/label-show-image-demo"
+        },
+        "github.com_20alex20_SFS": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/20alex20/SFS"
+        },
+        "github.com_9smart_9Store": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/9smart/9Store"
+        },
+        "github.com_9smart_harbour-9news": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/9smart/harbour-9news"
+        },
+        "github.com_9smart_harbour-9store": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/9smart/harbour-9store"
+        },
+        "github.com_9smart_harbour-littlerace": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/9smart/harbour-littlerace"
+        },
+        "github.com_9smart_harbour-tbclient": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/9smart/harbour-tbclient"
+        },
+        "github.com_Acce0ss_advcompogallery-sailfish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Acce0ss/advcompogallery-sailfish"
+        },
+        "github.com_Acce0ss_harbour-qr-share-plugin": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Acce0ss/harbour-qr-share-plugin"
+        },
+        "github.com_Acce0ss_shellex": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Acce0ss/shellex"
+        },
+        "github.com_Acce0ss_simpleweather": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Acce0ss/simpleweather"
+        },
+        "github.com_Aldrog_TwitchTube": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Aldrog/TwitchTube"
+        },
+        "github.com_Aldrog_harbour-vipiano": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Aldrog/harbour-vipiano"
+        },
+        "github.com_AlexGladkov_AuroraOSDemo": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/AlexGladkov/AuroraOSDemo"
+        },
+        "github.com_Alexiril_DirectumJazz": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Alexiril/DirectumJazz"
+        },
+        "github.com_Ancelad_sailfishrasp": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Ancelad/sailfishrasp"
+        },
+        "github.com_ArcticaProject_arctica-sailor": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/ArcticaProject/arctica-sailor"
+        },
+        "github.com_Arusekk_harbour-pipes": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Arusekk/harbour-pipes"
+        },
+        "github.com_AsteroidOS_starship": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/AsteroidOS/starship"
+        },
+        "github.com_B2qa_ClubCode": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/B2qa/ClubCode"
+        },
+        "github.com_BeaumerF_Turtlight": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/BeaumerF/Turtlight"
+        },
+        "github.com_BillyHalley_SailTris": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/BillyHalley/SailTris"
+        },
+        "github.com_BrazhnikDA_BluetoothQT": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/BrazhnikDA/BluetoothQT"
+        },
+        "github.com_Bytewerk_Messwerk": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Bytewerk/Messwerk"
+        },
+        "github.com_CODeRUS_aliendalvik-control": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/CODeRUS/aliendalvik-control"
+        },
+        "github.com_CODeRUS_android-notifications": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/CODeRUS/android-notifications"
+        },
+        "github.com_CODeRUS_better-sailfishos-qmltypes": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/CODeRUS/better-sailfishos-qmltypes"
+        },
+        "github.com_CODeRUS_harbour-lgremote-webos": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/CODeRUS/harbour-lgremote-webos"
+        },
+        "github.com_CODeRUS_harbour-mitakuuluu2": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/CODeRUS/harbour-mitakuuluu2"
+        },
+        "github.com_CODeRUS_harbour-screentapshot": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/CODeRUS/harbour-screentapshot"
+        },
+        "github.com_CODeRUS_haze-accounts-extensions": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/CODeRUS/haze-accounts-extensions"
+        },
+        "github.com_CODeRUS_powermenu": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/CODeRUS/powermenu"
+        },
+        "github.com_CODeRUS_powermenu2": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/CODeRUS/powermenu2"
+        },
+        "github.com_CODeRUS_sailfishos-launcher-combined-patch": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/CODeRUS/sailfishos-launcher-combined-patch"
+        },
+        "github.com_CODeRUS_sailfishos-mazelock-patch": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/CODeRUS/sailfishos-mazelock-patch"
+        },
+        "github.com_CODeRUS_screenrecorder": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/CODeRUS/screenrecorder"
+        },
+        "github.com_CODeRUS_splashscreen-changer": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/CODeRUS/splashscreen-changer"
+        },
+        "github.com_CarlSchwan_talk-desktop": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/CarlSchwan/talk-desktop"
+        },
+        "github.com_Cermit_harbour-my-app": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Cermit/harbour-my-app"
+        },
+        "github.com_Computershik73_Aurora-Subtrains": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Computershik73/Aurora-Subtrains"
+        },
+        "github.com_Computershik73_YaSailMusic": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Computershik73/YaSailMusic"
+        },
+        "github.com_D31m05z_jolla-presentation-demo": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/D31m05z/jolla-presentation-demo"
+        },
+        "github.com_Dan1l0s_aurora_pracs": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Dan1l0s/aurora_pracs"
+        },
+        "github.com_Dax89_WebPirate": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Dax89/WebPirate"
+        },
+        "github.com_Dax89_harbour-streamfish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Dax89/harbour-streamfish"
+        },
+        "github.com_Dax89_harbour-vodcounter": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Dax89/harbour-vodcounter"
+        },
+        "github.com_Dica-Developer_sailfish-browser-search-engine-manager": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Dica-Developer/sailfish-browser-search-engine-manager"
+        },
+        "github.com_Dica-Developer_sailfish-dict": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Dica-Developer/sailfish-dict"
+        },
+        "github.com_Disasm_BatteryStats": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Disasm/BatteryStats"
+        },
+        "github.com_Disasm_simply-do-sailfish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Disasm/simply-do-sailfish"
+        },
+        "github.com_DylanVanAssche_LCRail": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/DylanVanAssche/LCRail"
+        },
+        "github.com_Echanging_QT5": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Echanging/QT5"
+        },
+        "github.com_ExAnimoso_bluetooth-messenger": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/ExAnimoso/bluetooth-messenger"
+        },
+        "github.com_ExAnimoso_counter-application": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/ExAnimoso/counter-application"
+        },
+        "github.com_ExAnimoso_counter-cpp-application": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/ExAnimoso/counter-cpp-application"
+        },
+        "github.com_FAMM_harbour-tothem": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/FAMM/harbour-tothem"
+        },
+        "github.com_Fedorrrrrrrrrrrr_weather-task": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Fedorrrrrrrrrrrr/weather-task"
+        },
+        "github.com_Frenzie_harbour-serra": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Frenzie/harbour-serra"
+        },
+        "github.com_Gehock_harbour-wifianalyzer": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Gehock/harbour-wifianalyzer"
+        },
+        "github.com_GoAlexander_harbour-chance": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/GoAlexander/harbour-chance"
+        },
+        "github.com_GoAlexander_harbour-editor": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/GoAlexander/harbour-editor"
+        },
+        "github.com_GoAlexander_harbour-exporter": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/GoAlexander/harbour-exporter"
+        },
+        "github.com_GoAlexander_sailfishos-wiki": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/GoAlexander/sailfishos-wiki"
+        },
+        "github.com_Hatemsla_FitnessAppAurora": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Hatemsla/FitnessAppAurora"
+        },
+        "github.com_HenkKalkwater_sailfish-audio-output": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/HenkKalkwater/sailfish-audio-output"
+        },
+        "github.com_Hirama_Innogram": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Hirama/Innogram"
+        },
+        "github.com_Huessenbergnetz_Chennzeihhan": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Huessenbergnetz/Chennzeihhan"
+        },
+        "github.com_Huessenbergnetz_Framrekkari": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Huessenbergnetz/Framrekkari"
+        },
+        "github.com_Huessenbergnetz_Fuoten": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Huessenbergnetz/Fuoten"
+        },
+        "github.com_Huessenbergnetz_Gibrievida": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Huessenbergnetz/Gibrievida"
+        },
+        "github.com_Huessenbergnetz_HBN_SFOS_Components": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Huessenbergnetz/HBN_SFOS_Components"
+        },
+        "github.com_Huessenbergnetz_Intfuorit": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Huessenbergnetz/Intfuorit"
+        },
+        "github.com_JLugagne_SailOnJamendo": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/JLugagne/SailOnJamendo"
+        },
+        "github.com_JanneEdelman_radio-switcher": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/JanneEdelman/radio-switcher"
+        },
+        "github.com_Jollailija_nettiradio": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Jollailija/nettiradio"
+        },
+        "github.com_Julien-Blanc-tgcm_LAttestation": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Julien-Blanc-tgcm/LAttestation"
+        },
+        "github.com_Julien-Blanc-tgcm_kontroller": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Julien-Blanc-tgcm/kontroller"
+        },
+        "github.com_Julien-Blanc-tgcm_minidsp_remote": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Julien-Blanc-tgcm/minidsp_remote"
+        },
+        "github.com_KDE_kbibtex": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/KDE/kbibtex"
+        },
+        "github.com_Karry_osmscout-sailfish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Karry/osmscout-sailfish"
+        },
+        "github.com_KirillYashin_Aurora_labs": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/KirillYashin/Aurora_labs"
+        },
+        "github.com_KrisztianOlah_london-sail": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/KrisztianOlah/london-sail"
+        },
+        "github.com_Lechindianer_Beerware": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Lechindianer/Beerware"
+        },
+        "github.com_Logic-gate_harbour-cargo": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Logic-gate/harbour-cargo"
+        },
+        "github.com_LouJo_SailConnect4": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/LouJo/SailConnect4"
+        },
+        "github.com_LouJo_SailTuner": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/LouJo/SailTuner"
+        },
+        "github.com_LouJo_SailDBMeter": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/LouJo/SailDBMeter"
+        },
+        "github.com_M4rtinK_mieru": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/M4rtinK/mieru"
+        },
+        "github.com_M4rtinK_modrana": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/M4rtinK/modrana"
+        },
+        "github.com_M4rtinK_tsubame": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/M4rtinK/tsubame"
+        },
+        "github.com_M4rtinK_universal-components": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/M4rtinK/universal-components"
+        },
+        "github.com_MBarysheva_Mobile-computing-systems-programming": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/MBarysheva/Mobile-computing-systems-programming"
+        },
+        "github.com_MFaroTusino_MyNokiaBlog-Sailfish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/MFaroTusino/MyNokiaBlog-Sailfish"
+        },
+        "github.com_Maledictus_harbour-linksbag": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Maledictus/harbour-linksbag"
+        },
+        "github.com_Maledictus_harbour-mnemosy": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Maledictus/harbour-mnemosy"
+        },
+        "github.com_Maledictus_harbour-sailreads": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Maledictus/harbour-sailreads"
+        },
+        "github.com_Mantas-dev_WeatherDemoAurora": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Mantas-dev/WeatherDemoAurora"
+        },
+        "github.com_Mariusmssj_harbour-vlc-remote": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Mariusmssj/harbour-vlc-remote"
+        },
+        "github.com_Matoking_Filetug": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Matoking/Filetug"
+        },
+        "github.com_Michal-Szczepaniak_Musikilo": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Michal-Szczepaniak/Musikilo"
+        },
+        "github.com_Michal-Szczepaniak_Yottagram": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Michal-Szczepaniak/Yottagram"
+        },
+        "github.com_Michal-Szczepaniak_microtube": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Michal-Szczepaniak/microtube"
+        },
+        "github.com_Michal-Szczepaniak_nanofiles": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Michal-Szczepaniak/nanofiles"
+        },
+        "github.com_Michal-Szczepaniak_picoplayer": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Michal-Szczepaniak/picoplayer"
+        },
+        "github.com_MlsDmitry_sail-music": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/MlsDmitry/sail-music"
+        },
+        "github.com_MohdFayisVS_newsness.in": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/MohdFayisVS/newsness.in"
+        },
+        "github.com_MrNightFury_Aurora_Pr3": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/MrNightFury/Aurora_Pr3"
+        },
+        "github.com_Nokius_harbour-tagesschau": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Nokius/harbour-tagesschau"
+        },
+        "github.com_NotExistsUser_Shadowfish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/NotExistsUser/Shadowfish"
+        },
+        "github.com_Olf0_harbour-squeeze-me": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Olf0/harbour-squeeze-me"
+        },
+        "github.com_PawelSpoon_harbour-olive-goes-shopping": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/PawelSpoon/harbour-olive-goes-shopping"
+        },
+        "github.com_PawelSpoon_olive-goes-shopping": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/PawelSpoon/olive-goes-shopping"
+        },
+        "github.com_ProtonMail_therecipe_qt": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/ProtonMail/therecipe_qt"
+        },
+        "github.com_QtGram_harbour-sailorgram": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/QtGram/harbour-sailorgram"
+        },
+        "github.com_R-033_toeterm": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/R-033/toeterm"
+        },
+        "github.com_R1tschY_harbour-determinant": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/R1tschY/harbour-determinant"
+        },
+        "github.com_R1tschY_harbour-sailfishconnect": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/R1tschY/harbour-sailfishconnect"
+        },
+        "github.com_Rantanen_MFiles-Sailfish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Rantanen/MFiles-Sailfish"
+        },
+        "github.com_RikudouSage_harbour-bitsailor": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/RikudouSage/harbour-bitsailor"
+        },
+        "github.com_RikudouSage_harbour-chatgpt": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/RikudouSage/harbour-chatgpt"
+        },
+        "github.com_Rikujolla_harbour-math-teacher": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Rikujolla/harbour-math-teacher"
+        },
+        "github.com_Rikujolla_harbour-memory": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Rikujolla/harbour-memory"
+        },
+        "github.com_Rikujolla_shakkikello": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Rikujolla/shakkikello"
+        },
+        "github.com_RobbBienert_harbour-colorchooser": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/RobbBienert/harbour-colorchooser"
+        },
+        "github.com_RobbBienert_harbour-networkinfo": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/RobbBienert/harbour-networkinfo"
+        },
+        "github.com_Roskai_devPoubelle": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Roskai/devPoubelle"
+        },
+        "github.com_SanderKlootwijk_harbour-nednieuws": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/SanderKlootwijk/harbour-nednieuws"
+        },
+        "github.com_Scaarj_uniqt": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Scaarj/uniqt"
+        },
+        "github.com_SfietKonstantin_harbour-twablet": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/SfietKonstantin/harbour-twablet"
+        },
+        "github.com_SfietKonstantin_phonebot": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/SfietKonstantin/phonebot"
+        },
+        "github.com_ShaldonS_Aurora-Labs": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/ShaldonS/Aurora-Labs"
+        },
+        "github.com_ShaneQful_SailBusDublin": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/ShaneQful/SailBusDublin"
+        },
+        "github.com_Sikarjan_harbour-exrates": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Sikarjan/harbour-exrates"
+        },
+        "github.com_Simoma_rena": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Simoma/rena"
+        },
+        "github.com_Simoma_tinytodo": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Simoma/tinytodo"
+        },
+        "github.com_Simoma_tinytodo-sailfish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Simoma/tinytodo-sailfish"
+        },
+        "github.com_SunRain_SailfishWeibo": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/SunRain/SailfishWeibo"
+        },
+        "github.com_TelepathyIM_sailfish-settings-accounts-extensions-telegram": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/TelepathyIM/sailfish-settings-accounts-extensions-telegram"
+        },
+        "github.com_Thaodan_haze-accounts-extensions-skypeweb": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Thaodan/haze-accounts-extensions-skypeweb"
+        },
+        "github.com_TibidoX_Tetris": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/TibidoX/Tetris"
+        },
+        "github.com_TiredClone_auroraos-app": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/TiredClone/auroraos-app"
+        },
+        "github.com_Tofee_harbour-unofficialETA": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Tofee/harbour-unofficialETA"
+        },
+        "github.com_Tomin1_patience-deck": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Tomin1/patience-deck"
+        },
+        "github.com_Top-Ranger_harbour-vocabulary": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Top-Ranger/harbour-vocabulary"
+        },
+        "github.com_TracksApp_harbour-tracks": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/TracksApp/harbour-tracks"
+        },
+        "github.com_VeggieSailor_VeggieSailor": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/VeggieSailor/VeggieSailor"
+        },
+        "github.com_Wnt_PlanningPoker": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Wnt/PlanningPoker"
+        },
+        "github.com_Wunderfitz_harbour-fernschreiber": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Wunderfitz/harbour-fernschreiber"
+        },
+        "github.com_Wunderfitz_harbour-fernweh": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Wunderfitz/harbour-fernweh"
+        },
+        "github.com_Wunderfitz_harbour-funzel": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Wunderfitz/harbour-funzel"
+        },
+        "github.com_Wunderfitz_harbour-luna": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Wunderfitz/harbour-luna"
+        },
+        "github.com_Wunderfitz_harbour-piepmatz": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Wunderfitz/harbour-piepmatz"
+        },
+        "github.com_Wunderfitz_harbour-tacho": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Wunderfitz/harbour-tacho"
+        },
+        "github.com_Wunderfitz_harbour-wunderfitz": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Wunderfitz/harbour-wunderfitz"
+        },
+        "github.com_Wunderfitz_harbour-zaster": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Wunderfitz/harbour-zaster"
+        },
+        "github.com_ZefQ_Received": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/ZefQ/Received"
+        },
+        "github.com_ZeiP_harbour-paketti": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/ZeiP/harbour-paketti"
+        },
+        "github.com_Zhiz0id_screen-recorder": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/Zhiz0id/screen-recorder"
+        },
+        "github.com_a-andreyev_harbour-chastv": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/a-andreyev/harbour-chastv"
+        },
+        "github.com_a-andreyev_harbour-imagitron": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/a-andreyev/harbour-imagitron"
+        },
+        "github.com_a-dekker_BarWal": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/a-dekker/BarWal"
+        },
+        "github.com_a-dekker_Unit-Converter": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/a-dekker/Unit-Converter"
+        },
+        "github.com_a-dekker_acid-pass": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/a-dekker/acid-pass"
+        },
+        "github.com_a-dekker_cooktimer": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/a-dekker/cooktimer"
+        },
+        "github.com_a-dekker_displaytime": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/a-dekker/displaytime"
+        },
+        "github.com_a-dekker_mediainfo-gui": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/a-dekker/mediainfo-gui"
+        },
+        "github.com_a-dekker_sailcron": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/a-dekker/sailcron"
+        },
+        "github.com_a-dekker_the-emoji-keyboard": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/a-dekker/the-emoji-keyboard"
+        },
+        "github.com_a-dekker_welkweer": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/a-dekker/welkweer"
+        },
+        "github.com_a-dekker_worldclock": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/a-dekker/worldclock"
+        },
+        "github.com_abertschi_sailfish-headless-keyboard-dbus": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/abertschi/sailfish-headless-keyboard-dbus"
+        },
+        "github.com_abertschi_sailfish-wlan-keyboard": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/abertschi/sailfish-wlan-keyboard"
+        },
+        "github.com_abranson_rockpool": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/abranson/rockpool"
+        },
+        "github.com_accumulator_Quickddit": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/accumulator/Quickddit"
+        },
+        "github.com_accumulator_kodimote": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/accumulator/kodimote"
+        },
+        "github.com_accumulator_syncevolution-sailfish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/accumulator/syncevolution-sailfish"
+        },
+        "github.com_achipa_qtinfo": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/achipa/qtinfo"
+        },
+        "github.com_aebruno_angelfish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/aebruno/angelfish"
+        },
+        "github.com_ajalkane_ringingrestorer_sailfish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/ajalkane/ringingrestorer_sailfish"
+        },
+        "github.com_ajalkane_sailfish-findmyjolla": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/ajalkane/sailfish-findmyjolla"
+        },
+        "github.com_akandrin_MobileProgramming": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/akandrin/MobileProgramming"
+        },
+        "github.com_alexmihalyk23_aurora-The-Game-Of-Life": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/alexmihalyk23/aurora-The-Game-Of-Life"
+        },
+        "github.com_alexsoll_SailfishOS_State_graph": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/alexsoll/SailfishOS_State_graph"
+        },
+        "github.com_alexsoll_SailfishOS_data_management": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/alexsoll/SailfishOS_data_management"
+        },
+        "github.com_alexsoll_SailfishOS_matrix": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/alexsoll/SailfishOS_matrix"
+        },
+        "github.com_alexsoll_SailfishOS_organization_interface": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/alexsoll/SailfishOS_organization_interface"
+        },
+        "github.com_alexsoll_SailfishOS_qml_integration": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/alexsoll/SailfishOS_qml_integration"
+        },
+        "github.com_alexsoll_SailfishOS_standard_controls": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/alexsoll/SailfishOS_standard_controls"
+        },
+        "github.com_alexsoll_SailfishOS_user_interface_basics": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/alexsoll/SailfishOS_user_interface_basics"
+        },
+        "github.com_alketola_harbour-ostos": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/alketola/harbour-ostos"
+        },
+        "github.com_alko89_CapoeiraLyricsQt": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/alko89/CapoeiraLyricsQt"
+        },
+        "github.com_almindor_harbour-jTox": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/almindor/harbour-jTox"
+        },
+        "github.com_almindor_lighthouse": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/almindor/lighthouse"
+        },
+        "github.com_amarchen_Wikipedia": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/amarchen/Wikipedia"
+        },
+        "github.com_amarchen_helloworld-pro-sailfish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/amarchen/helloworld-pro-sailfish"
+        },
+        "github.com_amarchen_log4qt-demo-sailfish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/amarchen/log4qt-demo-sailfish"
+        },
+        "github.com_andreagrandi_sailsoma": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/andreagrandi/sailsoma"
+        },
+        "github.com_andywuest_harbour-pollenflug": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/andywuest/harbour-pollenflug"
+        },
+        "github.com_andywuest_harbour-watchlist": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/andywuest/harbour-watchlist"
+        },
+        "github.com_anigaj_kids-mode": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/anigaj/kids-mode"
+        },
+        "github.com_aportale_qtouchandlearn": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/aportale/qtouchandlearn"
+        },
+        "github.com_aranega_sailpy": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/aranega/sailpy"
+        },
+        "github.com_arustg_harbour-dinorunner": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/arustg/harbour-dinorunner"
+        },
+        "github.com_arustg_harbour-frome": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/arustg/harbour-frome"
+        },
+        "github.com_arvidfm_jolla-anthy-jp": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/arvidfm/jolla-anthy-jp"
+        },
+        "github.com_attah_harbour-seaprint": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/attah/harbour-seaprint"
+        },
+        "github.com_attah_harbour-tint": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/attah/harbour-tint"
+        },
+        "github.com_badvoltage_sailfish-app": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/badvoltage/sailfish-app"
+        },
+        "github.com_balta3_sailfish-gpsinfo": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/balta3/sailfish-gpsinfo"
+        },
+        "github.com_bauidch_Clicker": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/bauidch/Clicker"
+        },
+        "github.com_bauidch_harbour-airmeteo": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/bauidch/harbour-airmeteo"
+        },
+        "github.com_baxyz_Sailfish-Pathfinder": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/baxyz/Sailfish-Pathfinder"
+        },
+        "github.com_birefringence_harbour-babymonitor": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/birefringence/harbour-babymonitor"
+        },
+        "github.com_bjorkstromm_harbour-filters": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/bjorkstromm/harbour-filters"
+        },
+        "github.com_bjorkstromm_harbour-guitar-tuner": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/bjorkstromm/harbour-guitar-tuner"
+        },
+        "github.com_black-sheep-dev_harbour-aenigma": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/black-sheep-dev/harbour-aenigma"
+        },
+        "github.com_black-sheep-dev_harbour-apocalypse": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/black-sheep-dev/harbour-apocalypse"
+        },
+        "github.com_black-sheep-dev_harbour-audiothek": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/black-sheep-dev/harbour-audiothek"
+        },
+        "github.com_black-sheep-dev_harbour-evento": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/black-sheep-dev/harbour-evento"
+        },
+        "github.com_black-sheep-dev_harbour-hafenschau": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/black-sheep-dev/harbour-hafenschau"
+        },
+        "github.com_black-sheep-dev_harbour-kasa": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/black-sheep-dev/harbour-kasa"
+        },
+        "github.com_black-sheep-dev_harbour-mlsmanager": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/black-sheep-dev/harbour-mlsmanager"
+        },
+        "github.com_black-sheep-dev_harbour-porthole": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/black-sheep-dev/harbour-porthole"
+        },
+        "github.com_black-sheep-dev_harbour-quartermaster": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/black-sheep-dev/harbour-quartermaster"
+        },
+        "github.com_black-sheep-dev_harbour-sailhub": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/black-sheep-dev/harbour-sailhub"
+        },
+        "github.com_black-sheep-dev_harbour-tvhclient": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/black-sheep-dev/harbour-tvhclient"
+        },
+        "github.com_black-sheep-dev_harbour-webcontrol": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/black-sheep-dev/harbour-webcontrol"
+        },
+        "github.com_blacksailer_depecher": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/blacksailer/depecher"
+        },
+        "github.com_brunoluvizotto_harbour-money": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/brunoluvizotto/harbour-money"
+        },
+        "github.com_bugrazoid_AuroraWeather": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/bugrazoid/AuroraWeather"
+        },
+        "github.com_bundyo_trollbridge": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/bundyo/trollbridge"
+        },
+        "github.com_camilbancioiu_Cluster": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/camilbancioiu/Cluster"
+        },
+        "github.com_cecton_AdSailAway": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/cecton/AdSailAway"
+        },
+        "github.com_chstem_harbour-mercury": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/chstem/harbour-mercury"
+        },
+        "github.com_cnlpete_ttrss": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/cnlpete/ttrss"
+        },
+        "github.com_communi_communi-sailfish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/communi/communi-sailfish"
+        },
+        "github.com_condo4_carbudget": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/condo4/carbudget"
+        },
+        "github.com_conradhuebler_harbour-tidalplayer": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/conradhuebler/harbour-tidalplayer"
+        },
+        "github.com_corecomic_pyrrha": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/corecomic/pyrrha"
+        },
+        "github.com_corecomic_seriesfinale": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/corecomic/seriesfinale"
+        },
+        "github.com_croc-code_aurora-rust-gui": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/croc-code/aurora-rust-gui"
+        },
+        "github.com_custodian_harbour-systemmonitor": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/custodian/harbour-systemmonitor"
+        },
+        "github.com_custodian_orn-warehouse": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/custodian/orn-warehouse"
+        },
+        "github.com_d0b3rm4n_harbour-hud": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/d0b3rm4n/harbour-hud"
+        },
+        "github.com_d0b3rm4n_harbour-sidudict": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/d0b3rm4n/harbour-sidudict"
+        },
+        "github.com_danielbulgakov_mobile_aurora_labs": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/danielbulgakov/mobile_aurora_labs"
+        },
+        "github.com_danvratil_harbour-passilic": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/danvratil/harbour-passilic"
+        },
+        "github.com_danvratil_harbour-sailslack": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/danvratil/harbour-sailslack"
+        },
+        "github.com_dasimmet_Sailfish-Python": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/dasimmet/Sailfish-Python"
+        },
+        "github.com_datakurre_harbour-pyletoh": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/datakurre/harbour-pyletoh"
+        },
+        "github.com_davidar_harbour-matrix": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/davidar/harbour-matrix"
+        },
+        "github.com_dcaliste_freebox-o-fish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/dcaliste/freebox-o-fish"
+        },
+        "github.com_dcaliste_maep-qt": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/dcaliste/maep-qt"
+        },
+        "github.com_dcaliste_score-board": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/dcaliste/score-board"
+        },
+        "github.com_den3000_ToDoFeed-aurora": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/den3000/ToDoFeed-aurora"
+        },
+        "github.com_denLaure_sailfish-visual-dbus": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/denLaure/sailfish-visual-dbus"
+        },
+        "github.com_dermatty_clogfish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/dermatty/clogfish"
+        },
+        "github.com_dgrr_harbour-translate": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/dgrr/harbour-translate"
+        },
+        "github.com_direc85_harbour-batterybuddy": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/direc85/harbour-batterybuddy"
+        },
+        "github.com_direc85_harbour-themetool": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/direc85/harbour-themetool"
+        },
+        "github.com_djselbeck_daedalus-sailfish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/djselbeck/daedalus-sailfish"
+        },
+        "github.com_djselbeck_smpc": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/djselbeck/smpc"
+        },
+        "github.com_dm8tbr_sailfishsilica-qt5": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/dm8tbr/sailfishsilica-qt5"
+        },
+        "github.com_donaggio_harbour-feedhaven": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/donaggio/harbour-feedhaven"
+        },
+        "github.com_dpeytonX_harbour-nemosyne": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/dpeytonX/harbour-nemosyne"
+        },
+        "github.com_dpeytonX_sailfish-widgets": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/dpeytonX/sailfish-widgets"
+        },
+        "github.com_dpurgin_harbour-callrecorder": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/dpurgin/harbour-callrecorder"
+        },
+        "github.com_dpurgin_harbour-cyclingcomputer": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/dpurgin/harbour-cyclingcomputer"
+        },
+        "github.com_dragondjf_QMusic": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/dragondjf/QMusic"
+        },
+        "github.com_dragondjf_musicplayer-qml": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/dragondjf/musicplayer-qml"
+        },
+        "github.com_dsarlis_Sailfish-OS-applications": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/dsarlis/Sailfish-OS-applications"
+        },
+        "github.com_dseight_clockwork": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/dseight/clockwork"
+        },
+        "github.com_dseight_lottiequick": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/dseight/lottiequick"
+        },
+        "github.com_dseight_sapphire": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/dseight/sapphire"
+        },
+        "github.com_durzinger_harbour-sailworm": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/durzinger/harbour-sailworm"
+        },
+        "github.com_dysk0_harbour-pingviini": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/dysk0/harbour-pingviini"
+        },
+        "github.com_dysk0_harbour-tooter": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/dysk0/harbour-tooter"
+        },
+        "github.com_eekkelund_harbour-tIDE": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/eekkelund/harbour-tIDE"
+        },
+        "github.com_eekkelund_tide": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/eekkelund/tide"
+        },
+        "github.com_ejjoman_harbour-hipsterfish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/ejjoman/harbour-hipsterfish"
+        },
+        "github.com_ejjoman_harbour-sailfishreboot": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/ejjoman/harbour-sailfishreboot"
+        },
+        "github.com_ejjoman_harbour-sailwave": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/ejjoman/harbour-sailwave"
+        },
+        "github.com_elros34_qxcompositor": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/elros34/qxcompositor"
+        },
+        "github.com_equeim_unplayer": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/equeim/unplayer"
+        },
+        "github.com_eras_SensorView": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/eras/SensorView"
+        },
+        "github.com_eras_Virtaus": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/eras/Virtaus"
+        },
+        "github.com_eremin-ev_test": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/eremin-ev/test"
+        },
+        "github.com_euroelessar_cutereader": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/euroelessar/cutereader"
+        },
+        "github.com_faxling_firewatcher": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/faxling/firewatcher"
+        },
+        "github.com_faxling_tripometer": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/faxling/tripometer"
+        },
+        "github.com_faxling_wordquiz": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/faxling/wordquiz"
+        },
+        "github.com_flerro_harbour-instasaver": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/flerro/harbour-instasaver"
+        },
+        "github.com_florianjacob_CMQt": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/florianjacob/CMQt"
+        },
+        "github.com_florianwittmann_sailgrande": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/florianwittmann/sailgrande"
+        },
+        "github.com_florianwittmann_sailstack": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/florianwittmann/sailstack"
+        },
+        "github.com_foolab_cameraplus": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/foolab/cameraplus"
+        },
+        "github.com_foolsbazar_sailfish-ease-vkb": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/foolsbazar/sailfish-ease-vkb"
+        },
+        "github.com_fredldotme_ISODrive": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/fredldotme/ISODrive"
+        },
+        "github.com_fredldotme_harbour-owncloud": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/fredldotme/harbour-owncloud"
+        },
+        "github.com_fridlmue_harbour-avarisk": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/fridlmue/harbour-avarisk"
+        },
+        "github.com_fridlmue_harbour-btvol": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/fridlmue/harbour-btvol"
+        },
+        "github.com_frzifus_nukifish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/frzifus/nukifish"
+        },
+        "github.com_fsbkgb_Sosacheeque": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/fsbkgb/Sosacheeque"
+        },
+        "github.com_g7_sailfishos-patch-force-largecovers": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/g7/sailfishos-patch-force-largecovers"
+        },
+        "github.com_geobra_harbour-shmoose": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/geobra/harbour-shmoose"
+        },
+        "github.com_geobra_shmong": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/geobra/shmong"
+        },
+        "github.com_ggeraldina_fox_hunting_sailfish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/ggeraldina/fox_hunting_sailfish"
+        },
+        "github.com_gimmiereddy_gnu-fm": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/gimmiereddy/gnu-fm"
+        },
+        "github.com_gitGNU_gnu_librefm": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/gitGNU/gnu_librefm"
+        },
+        "github.com_glasserc_sailfish-fash-fosh": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/glasserc/sailfish-fash-fosh"
+        },
+        "github.com_goldfrapper_BabyLogger": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/goldfrapper/BabyLogger"
+        },
+        "github.com_goroboro_TVHeadFish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/goroboro/TVHeadFish"
+        },
+        "github.com_gpodder_gpodder-sailfish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/gpodder/gpodder-sailfish"
+        },
+        "github.com_grumpycat3051_harbour-phillis": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/grumpycat3051/harbour-phillis"
+        },
+        "github.com_hafmed_harbour-thakir_prayer_times": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/hafmed/harbour-thakir_prayer_times"
+        },
+        "github.com_hanhsuan_jolla-chewing": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/hanhsuan/jolla-chewing"
+        },
+        "github.com_hdhoang_harbour-syncthing": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/hdhoang/harbour-syncthing"
+        },
+        "github.com_heartfin_harbour-sailfin": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/heartfin/harbour-sailfin"
+        },
+        "github.com_helynranta_JollaCodecamp": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/helynranta/JollaCodecamp"
+        },
+        "github.com_hoelzro_harbour-sudoku": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/hoelzro/harbour-sudoku"
+        },
+        "github.com_huntor1994_HPDF": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/huntor1994/HPDF"
+        },
+        "github.com_hwesselmann_harbour-cloudmarks": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/hwesselmann/harbour-cloudmarks"
+        },
+        "github.com_hwesselmann_harbour-kormoran": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/hwesselmann/harbour-kormoran"
+        },
+        "github.com_hydrogen-sailfishos_harbour-hydrogen": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/hydrogen-sailfishos/harbour-hydrogen"
+        },
+        "github.com_i4004_SailPlayer": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/i4004/SailPlayer"
+        },
+        "github.com_ichthyosaurus_sailfish-public-patch-sources": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/ichthyosaurus/sailfish-public-patch-sources"
+        },
+        "github.com_ilpianista_harbour-Base64": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/ilpianista/harbour-Base64"
+        },
+        "github.com_ilpianista_harbour-HostIsDown": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/ilpianista/harbour-HostIsDown"
+        },
+        "github.com_ilpianista_harbour-Lyrics": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/ilpianista/harbour-Lyrics"
+        },
+        "github.com_ilpianista_harbour-MPW": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/ilpianista/harbour-MPW"
+        },
+        "github.com_ilpianista_harbour-Papocchio": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/ilpianista/harbour-Papocchio"
+        },
+        "github.com_ilpianista_harbour-SailHN": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/ilpianista/harbour-SailHN"
+        },
+        "github.com_ilpianista_harbour-Tailscale": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/ilpianista/harbour-Tailscale"
+        },
+        "github.com_introvertach_ACA": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/introvertach/ACA"
+        },
+        "github.com_inzanity_2miich": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/inzanity/2miich"
+        },
+        "github.com_jakibaki_audibleDown": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/jakibaki/audibleDown"
+        },
+        "github.com_jalkanen_harbour-networkmonitor": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/jalkanen/harbour-networkmonitor"
+        },
+        "github.com_janbar_harbour-compass": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/janbar/harbour-compass"
+        },
+        "github.com_jdrescher2006_Laufhelden": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/jdrescher2006/Laufhelden"
+        },
+        "github.com_jdrescher2006_OBDFish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/jdrescher2006/OBDFish"
+        },
+        "github.com_jgibbon_Talefish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/jgibbon/Talefish"
+        },
+        "github.com_jgibbon_slumber": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/jgibbon/slumber"
+        },
+        "github.com_jgibbon_yikes": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/jgibbon/yikes"
+        },
+        "github.com_jgressmann_harbour-vodman": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/jgressmann/harbour-vodman"
+        },
+        "github.com_jgueytat_UnofficialSpotify": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/jgueytat/UnofficialSpotify"
+        },
+        "github.com_jklingen_harbour-supersailpass": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/jklingen/harbour-supersailpass"
+        },
+        "github.com_jklingen_harbour-usb-switch": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/jklingen/harbour-usb-switch"
+        },
+        "github.com_jklingen_space-inspector": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/jklingen/space-inspector"
+        },
+        "github.com_jlehtoranta_harbour-tethering-gui": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/jlehtoranta/harbour-tethering-gui"
+        },
+        "github.com_jmlich_foursail": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/jmlich/foursail"
+        },
+        "github.com_joonne_harbour-nayttamo": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/joonne/harbour-nayttamo"
+        },
+        "github.com_joonne_harbour-sailseries": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/joonne/harbour-sailseries"
+        },
+        "github.com_joonne_harbour-salifish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/joonne/harbour-salifish"
+        },
+        "github.com_jrgdre_dbus-inspector": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/jrgdre/dbus-inspector"
+        },
+        "github.com_jroivas_waterwatch": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/jroivas/waterwatch"
+        },
+        "github.com_jsfdez_sahke": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/jsfdez/sahke"
+        },
+        "github.com_juhi24_viito": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/juhi24/viito"
+        },
+        "github.com_jusic_energiador": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/jusic/energiador"
+        },
+        "github.com_jusirkka_qutenav": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/jusirkka/qutenav"
+        },
+        "github.com_kelvan_sailtoVienna": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/kelvan/sailtoVienna"
+        },
+        "github.com_keygenqt_demo-native-kmp": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/keygenqt/demo-native-kmp"
+        },
+        "github.com_keygenqt_flutter-aWords": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/keygenqt/flutter-aWords"
+        },
+        "github.com_keygenqt_km-shop": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/keygenqt/km-shop"
+        },
+        "github.com_khmaksim_WebDRIVE2": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/khmaksim/WebDRIVE2"
+        },
+        "github.com_kimmoli_Sailfish-qtcreator-wizard": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/kimmoli/Sailfish-qtcreator-wizard"
+        },
+        "github.com_kimmoli_chargemon": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/kimmoli/chargemon"
+        },
+        "github.com_kimmoli_i2ctool": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/kimmoli/i2ctool"
+        },
+        "github.com_kimmoli_maira": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/kimmoli/maira"
+        },
+        "github.com_kimmoli_paint": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/kimmoli/paint"
+        },
+        "github.com_kimmoli_tohiri-app": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/kimmoli/tohiri-app"
+        },
+        "github.com_kimmoli_tohkbd2": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/kimmoli/tohkbd2"
+        },
+        "github.com_kimmoli_toholed": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/kimmoli/toholed"
+        },
+        "github.com_kimmoli_valuelogger": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/kimmoli/valuelogger"
+        },
+        "github.com_krig_metronom-sailfish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/krig/metronom-sailfish"
+        },
+        "github.com_krig_passy-sailfish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/krig/passy-sailfish"
+        },
+        "github.com_krobelus_cyanide": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/krobelus/cyanide"
+        },
+        "github.com_krruzic_Reader-YC": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/krruzic/Reader-YC"
+        },
+        "github.com_kusl_gnu-fm": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/kusl/gnu-fm"
+        },
+        "github.com_lainwir3d_Zik_Manager": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/lainwir3d/Zik_Manager"
+        },
+        "github.com_lainwir3d_sailfish-rpn-calculator": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/lainwir3d/sailfish-rpn-calculator"
+        },
+        "github.com_lenlis_CityDefend": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/lenlis/CityDefend"
+        },
+        "github.com_leppa_taot": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/leppa/taot"
+        },
+        "github.com_leushinilya_LoftMoney-Aurora": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/leushinilya/LoftMoney-Aurora"
+        },
+        "github.com_lizardK_cordova-sailfish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/lizardK/cordova-sailfish"
+        },
+        "github.com_llelectronics_noto": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/llelectronics/noto"
+        },
+        "github.com_llelectronics_videoPlayer": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/llelectronics/videoPlayer"
+        },
+        "github.com_llelectronics_webcat": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/llelectronics/webcat"
+        },
+        "github.com_llewelld_getiplay": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/llewelld/getiplay"
+        },
+        "github.com_llewelld_harbour-contrac": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/llewelld/harbour-contrac"
+        },
+        "github.com_llewelld_harbour-waex": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/llewelld/harbour-waex"
+        },
+        "github.com_llewelld_sailfish-autobackup": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/llewelld/sailfish-autobackup"
+        },
+        "github.com_llewelld_sdk-user-manual": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/llewelld/sdk-user-manual"
+        },
+        "github.com_locusf_bluewhale": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/locusf/bluewhale"
+        },
+        "github.com_lukedirtwalker_qtimetable": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/lukedirtwalker/qtimetable"
+        },
+        "github.com_mMjMm_harbour-scocadigo": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/mMjMm/harbour-scocadigo"
+        },
+        "github.com_machinekoder_QRemoteControl-Client": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/machinekoder/QRemoteControl-Client"
+        },
+        "github.com_maemo-leste-extras_modrana": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/maemo-leste-extras/modrana"
+        },
+        "github.com_magnunor_elements_sailfish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/magnunor/elements_sailfish"
+        },
+        "github.com_marcellodgl_harbour-vncscreen": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/marcellodgl/harbour-vncscreen"
+        },
+        "github.com_mariusor_mpris-scrobbler-signon": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/mariusor/mpris-scrobbler-signon"
+        },
+        "github.com_markussammallahti_harbour-slackfish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/markussammallahti/harbour-slackfish"
+        },
+        "github.com_marmay_harbour-budgetbook": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/marmay/harbour-budgetbook"
+        },
+        "github.com_martonmiklos_harbour-ble_scanner": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/martonmiklos/harbour-ble_scanner"
+        },
+        "github.com_martonmiklos_sailfish-ble-rc": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/martonmiklos/sailfish-ble-rc"
+        },
+        "github.com_matolainen_harbour-snoozeadjuster": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/matolainen/harbour-snoozeadjuster"
+        },
+        "github.com_matrixx_TrulyYours": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/matrixx/TrulyYours"
+        },
+        "github.com_mattaustin_fremantleline": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/mattaustin/fremantleline"
+        },
+        "github.com_mattaustin_sailfish-pyside-helloworld": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/mattaustin/sailfish-pyside-helloworld"
+        },
+        "github.com_mattaustin_tmo": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/mattaustin/tmo"
+        },
+        "github.com_mbelicki_memento": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/mbelicki/memento"
+        },
+        "github.com_meecast_meecast": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/meecast/meecast"
+        },
+        "github.com_mentaljam_sailfish-recorder": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/mentaljam/sailfish-recorder"
+        },
+        "github.com_meyskens_LastSail": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/meyskens/LastSail"
+        },
+        "github.com_micuintus_harbour-Berlin-Vegan": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/micuintus/harbour-Berlin-Vegan"
+        },
+        "github.com_miikasda_harbour-skruuvi": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/miikasda/harbour-skruuvi"
+        },
+        "github.com_mikeleppane_Doc-Scanner": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/mikeleppane/Doc-Scanner"
+        },
+        "github.com_mikelima_quandoparte": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/mikelima/quandoparte"
+        },
+        "github.com_mikelima_quantofa": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/mikelima/quantofa"
+        },
+        "github.com_mikelima_quattroquarti": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/mikelima/quattroquarti"
+        },
+        "github.com_mikkosyrja_speedcrunch-sailfish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/mikkosyrja/speedcrunch-sailfish"
+        },
+        "github.com_milikhin_seabass2": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/milikhin/seabass2"
+        },
+        "github.com_miska_HungerMeter": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/miska/HungerMeter"
+        },
+        "github.com_mixalturek_harbour-stator": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/mixalturek/harbour-stator"
+        },
+        "github.com_mjtorn_jolla-morse": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/mjtorn/jolla-morse"
+        },
+        "github.com_mkiol_Jupii": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/mkiol/Jupii"
+        },
+        "github.com_mkiol_Zimpedia": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/mkiol/Zimpedia"
+        },
+        "github.com_mkiol_dsnote": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/mkiol/dsnote"
+        },
+        "github.com_mkiol_kaktus": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/mkiol/kaktus"
+        },
+        "github.com_mkiol_kamkast": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/mkiol/kamkast"
+        },
+        "github.com_monich_harbour-books": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/monich/harbour-books"
+        },
+        "github.com_monich_harbour-fire": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/monich/harbour-fire"
+        },
+        "github.com_monich_harbour-foilauth": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/monich/harbour-foilauth"
+        },
+        "github.com_monich_harbour-foilnotes": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/monich/harbour-foilnotes"
+        },
+        "github.com_monich_harbour-foilpics": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/monich/harbour-foilpics"
+        },
+        "github.com_monich_harbour-lib": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/monich/harbour-lib"
+        },
+        "github.com_monich_harbour-logger": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/monich/harbour-logger"
+        },
+        "github.com_monich_harbour-mybackup": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/monich/harbour-mybackup"
+        },
+        "github.com_monich_openrepos-clock-settings": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/monich/openrepos-clock-settings"
+        },
+        "github.com_mordae_harbour-slovnik": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/mordae/harbour-slovnik"
+        },
+        "github.com_mparusinski_harbour-quotes": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/mparusinski/harbour-quotes"
+        },
+        "github.com_multifacs_aurora-projects": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/multifacs/aurora-projects"
+        },
+        "github.com_munkki84_SailFreeCell": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/munkki84/SailFreeCell"
+        },
+        "github.com_mxwell_harbour-twenty": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/mxwell/harbour-twenty"
+        },
+        "github.com_mzanetti_kodimote": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/mzanetti/kodimote"
+        },
+        "github.com_mzanetti_machines-vs-machines-sfos": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/mzanetti/machines-vs-machines-sfos"
+        },
+        "github.com_nagua_harbour-taskwarrior-GUI": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/nagua/harbour-taskwarrior-GUI"
+        },
+        "github.com_nekrondev_jolla_go": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/nekrondev/jolla_go"
+        },
+        "github.com_nemishkor_harbour-bitwarden-manager": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/nemishkor/harbour-bitwarden-manager"
+        },
+        "github.com_nemishkor_harbour-movie-sailor": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/nemishkor/harbour-movie-sailor"
+        },
+        "github.com_nemishkor_harbour-ukr-pravda": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/nemishkor/harbour-ukr-pravda"
+        },
+        "github.com_nephros_jolla-settings-accounts-extensions-github": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/nephros/jolla-settings-accounts-extensions-github"
+        },
+        "github.com_nephros_openrepos-tsumego-fork": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/nephros/openrepos-tsumego-fork"
+        },
+        "github.com_nesnomis_harbour-allradio": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/nesnomis/harbour-allradio"
+        },
+        "github.com_neversun_bodyweight-timer": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/neversun/bodyweight-timer"
+        },
+        "github.com_neversun_sailfish-hackernews": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/neversun/sailfish-hackernews"
+        },
+        "github.com_nevfel_qgvdial": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/nevfel/qgvdial"
+        },
+        "github.com_nezticle_hangman": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/nezticle/hangman"
+        },
+        "github.com_nodevel_harbour-defender": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/nodevel/harbour-defender"
+        },
+        "github.com_noelnh_harbour-prxrv": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/noelnh/harbour-prxrv"
+        },
+        "github.com_nomeata_sailfish-screen-message": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/nomeata/sailfish-screen-message"
+        },
+        "github.com_nurgling96_Cryptofish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/nurgling96/Cryptofish"
+        },
+        "github.com_olpeh_harbour-devrant": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/olpeh/harbour-devrant"
+        },
+        "github.com_olpeh_harbour-otaruoka": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/olpeh/harbour-otaruoka"
+        },
+        "github.com_olpeh_sailfish-FMI-weather": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/olpeh/sailfish-FMI-weather"
+        },
+        "github.com_olpeh_sailfish-telegramWV": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/olpeh/sailfish-telegramWV"
+        },
+        "github.com_olpeh_wht": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/olpeh/wht"
+        },
+        "github.com_omnight_phonehook": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/omnight/phonehook"
+        },
+        "github.com_omprussia_aurora-test-example": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/omprussia/aurora-test-example"
+        },
+        "github.com_omprussia_info-pro": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/omprussia/info-pro"
+        },
+        "github.com_omprussia_qapreload": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/omprussia/qapreload"
+        },
+        "github.com_oniongarlic_harbour-hellogps": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/oniongarlic/harbour-hellogps"
+        },
+        "github.com_osanwe_harbour-serra": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/osanwe/harbour-serra"
+        },
+        "github.com_osanwe_harbour-sight-safary": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/osanwe/harbour-sight-safary"
+        },
+        "github.com_oskaritimperi_unitmaster": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/oskaritimperi/unitmaster"
+        },
+        "github.com_ottok_datagatherer": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/ottok/datagatherer"
+        },
+        "github.com_owncloud-archive_News-Qt-App": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/owncloud-archive/News-Qt-App"
+        },
+        "github.com_peremen_jolla-input-ko": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/peremen/jolla-input-ko"
+        },
+        "github.com_perqin_QtQQ": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/perqin/QtQQ"
+        },
+        "github.com_piggz_harbour-advanced-camera": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/piggz/harbour-advanced-camera"
+        },
+        "github.com_piggz_harbour-amazfish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/piggz/harbour-amazfish"
+        },
+        "github.com_piggz_harbour-taskswitcher" : {
+            "ms-between-poll" : 86400000,
+            "url" : "https://github.com/piggz/harbour-taskswitcher"
+        },
+        "github.com_piggz_harbour-shutter": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/piggz/harbour-shutter"
+        },
+        "github.com_piggz_irremote": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/piggz/irremote"
+        },
+        "github.com_piggz_newsFish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/piggz/newsFish"
+        },
+        "github.com_poetaster_Plotter": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/poetaster/Plotter"
+        },
+        "github.com_poetaster_SailConnect4": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/poetaster/SailConnect4"
+        },
+        "github.com_poetaster_SailGo": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/poetaster/SailGo"
+        },
+        "github.com_poetaster_Solver": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/poetaster/Solver"
+        },
+        "github.com_poetaster_allthenews": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/poetaster/allthenews"
+        },
+        "github.com_poetaster_calcit": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/poetaster/calcit"
+        },
+        "github.com_poetaster_fibonacci": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/poetaster/fibonacci"
+        },
+        "github.com_poetaster_happycamper": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/poetaster/happycamper"
+        },
+        "github.com_poetaster_harbour-audiocut": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/poetaster/harbour-audiocut"
+        },
+        "github.com_poetaster_harbour-bassoontracker": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/poetaster/harbour-bassoontracker"
+        },
+        "github.com_poetaster_harbour-beamdimension": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/poetaster/harbour-beamdimension"
+        },
+        "github.com_poetaster_harbour-clipper": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/poetaster/harbour-clipper"
+        },
+        "github.com_poetaster_harbour-concretemixer": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/poetaster/harbour-concretemixer"
+        },
+        "github.com_poetaster_harbour-dwd": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/poetaster/harbour-dwd"
+        },
+        "github.com_poetaster_harbour-moremahjong": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/poetaster/harbour-moremahjong"
+        },
+        "github.com_poetaster_harbour-multimodal": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/poetaster/harbour-multimodal"
+        },
+        "github.com_poetaster_harbour-parkingtimer": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/poetaster/harbour-parkingtimer"
+        },
+        "github.com_poetaster_harbour-scaler": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/poetaster/harbour-scaler"
+        },
+        "github.com_poetaster_harbour-scribble": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/poetaster/harbour-scribble"
+        },
+        "github.com_poetaster_harbour-simplecrop": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/poetaster/harbour-simplecrop"
+        },
+        "github.com_poetaster_harbour-spritradar": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/poetaster/harbour-spritradar"
+        },
+        "github.com_poetaster_harbour-stopmotion": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/poetaster/harbour-stopmotion"
+        },
+        "github.com_poetaster_harbour-tooter": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/poetaster/harbour-tooter"
+        },
+        "github.com_poetaster_machines-vs-machines-sfos": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/poetaster/machines-vs-machines-sfos"
+        },
+        "github.com_poetaster_musicex": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/poetaster/musicex"
+        },
+        "github.com_poetaster_ringingrestorer_sailfish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/poetaster/ringingrestorer_sailfish"
+        },
+        "github.com_poetaster_tidings": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/poetaster/tidings"
+        },
+        "github.com_pombredanne_items": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/pombredanne/items"
+        },
+        "github.com_pycage_cargodock": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/pycage/cargodock"
+        },
+        "github.com_r0kk3rz_SirenSong-Media-Player": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/r0kk3rz/SirenSong-Media-Player"
+        },
+        "github.com_r0kk3rz_gstdroid-player": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/r0kk3rz/gstdroid-player"
+        },
+        "github.com_rabauke_harbour-babbage": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/rabauke/harbour-babbage"
+        },
+        "github.com_rabauke_harbour-sailbabel": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/rabauke/harbour-sailbabel"
+        },
+        "github.com_radekp_jolla-battery-monitor": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/radekp/jolla-battery-monitor"
+        },
+        "github.com_rcolistete_derivative-sailfish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/rcolistete/derivative-sailfish"
+        },
+        "github.com_rcolistete_integral-sailfish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/rcolistete/integral-sailfish"
+        },
+        "github.com_rcolistete_limit-sailfish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/rcolistete/limit-sailfish"
+        },
+        "github.com_rec0de_2107": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/rec0de/2107"
+        },
+        "github.com_rec0de_pixl": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/rec0de/pixl"
+        },
+        "github.com_rec0de_tappr": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/rec0de/tappr"
+        },
+        "github.com_remjey_Gopherette": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/remjey/Gopherette"
+        },
+        "github.com_remjey_HabitSailor": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/remjey/HabitSailor"
+        },
+        "github.com_renball_auroraOsHit": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/renball/auroraOsHit"
+        },
+        "github.com_rferrazz_sailfish-calculator": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/rferrazz/sailfish-calculator"
+        },
+        "github.com_rhomobile_rhodes": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/rhomobile/rhodes"
+        },
+        "github.com_rinigus_deb-pure-maps": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/rinigus/deb-pure-maps"
+        },
+        "github.com_rinigus_mapbox-demo-sfos": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/rinigus/mapbox-demo-sfos"
+        },
+        "github.com_rinigus_osmscout-server": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/rinigus/osmscout-server"
+        },
+        "github.com_rinigus_osmscout-server-fonts": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/rinigus/osmscout-server-fonts"
+        },
+        "github.com_rinigus_osmscout-server-route": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/rinigus/osmscout-server-route"
+        },
+        "github.com_rinigus_pure-maps": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/rinigus/pure-maps"
+        },
+        "github.com_rinigus_qt-runner": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/rinigus/qt-runner"
+        },
+        "github.com_rinigus_systemdatascope": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/rinigus/systemdatascope"
+        },
+        "github.com_rnestler_TOSH": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/rnestler/TOSH"
+        },
+        "github.com_rogora_hangish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/rogora/hangish"
+        },
+        "github.com_roundedrectangle_SailDiscord": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/roundedrectangle/SailDiscord"
+        },
+        "github.com_ruedigergad_SkippingStones": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/ruedigergad/SkippingStones"
+        },
+        "github.com_ruedigergad_emumaster": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/ruedigergad/emumaster"
+        },
+        "github.com_ruedigergad_qtodo": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/ruedigergad/qtodo"
+        },
+        "github.com_ruslang02_discord-aos": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/ruslang02/discord-aos"
+        },
+        "github.com_saidinesh5_harbour-droplet": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/saidinesh5/harbour-droplet"
+        },
+        "github.com_sailfish-containers_harbour-containers": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sailfish-containers/harbour-containers"
+        },
+        "github.com_sailfish-os-apps_2048-sailfish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sailfish-os-apps/2048-sailfish"
+        },
+        "github.com_sailfish-os-apps_app-grid-ng-mockup-sailfish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sailfish-os-apps/app-grid-ng-mockup-sailfish"
+        },
+        "github.com_sailfish-os-apps_bejeweled-sailfish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sailfish-os-apps/bejeweled-sailfish"
+        },
+        "github.com_sailfish-os-apps_bible-me-sailfish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sailfish-os-apps/bible-me-sailfish"
+        },
+        "github.com_sailfish-os-apps_chords-me-sailfish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sailfish-os-apps/chords-me-sailfish"
+        },
+        "github.com_sailfish-os-apps_citybike-me-sailfish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sailfish-os-apps/citybike-me-sailfish"
+        },
+        "github.com_sailfish-os-apps_feed-me-sailfish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sailfish-os-apps/feed-me-sailfish"
+        },
+        "github.com_sailfish-os-apps_hang-me-sailfish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sailfish-os-apps/hang-me-sailfish"
+        },
+        "github.com_sailfish-os-apps_harbour-mellies-sailfish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sailfish-os-apps/harbour-mellies-sailfish"
+        },
+        "github.com_sailfish-os-apps_harbour-picross-sailfish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sailfish-os-apps/harbour-picross-sailfish"
+        },
+        "github.com_sailfish-os-apps_klotski-sailfish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sailfish-os-apps/klotski-sailfish"
+        },
+        "github.com_sailfish-os-apps_movies-me-sailfish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sailfish-os-apps/movies-me-sailfish"
+        },
+        "github.com_sailfish-os-apps_sailfishos-patch-xperia-clock": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sailfish-os-apps/sailfishos-patch-xperia-clock"
+        },
+        "github.com_sailfish-os-apps_series-me-sailfish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sailfish-os-apps/series-me-sailfish"
+        },
+        "github.com_sailfish-os-apps_sokoban-sailfish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sailfish-os-apps/sokoban-sailfish"
+        },
+        "github.com_sailfish-os-apps_telegra-me-sailfish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sailfish-os-apps/telegra-me-sailfish"
+        },
+        "github.com_sailfish-os-apps_watch-me-sailfish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sailfish-os-apps/watch-me-sailfish"
+        },
+        "github.com_sailfish-spotify_hutspot": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sailfish-spotify/hutspot"
+        },
+        "github.com_sailfishapps_AbstractUI-for-Sailfish-Silica": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sailfishapps/AbstractUI-for-Sailfish-Silica"
+        },
+        "github.com_sailfishapps_ThrowawayDemos": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sailfishapps/ThrowawayDemos"
+        },
+        "github.com_sailfishapps_checklists": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sailfishapps/checklists"
+        },
+        "github.com_sailfishapps_landed": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sailfishapps/landed"
+        },
+        "github.com_sailfishapps_metronome": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sailfishapps/metronome"
+        },
+        "github.com_sailfishapps_sailfishsdk-ambiance-changer": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sailfishapps/sailfishsdk-ambiance-changer"
+        },
+        "github.com_sailfishapps_uradio": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sailfishapps/uradio"
+        },
+        "github.com_sailfishapps_weatherfish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sailfishapps/weatherfish"
+        },
+        "github.com_sailfishos-applications_daily-comics": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sailfishos-applications/daily-comics"
+        },
+        "github.com_sailfishos-applications_filecase": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sailfishos-applications/filecase"
+        },
+        "github.com_sailfishos-applications_flowplayer": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sailfishos-applications/flowplayer"
+        },
+        "github.com_sailfishos-chum_bugger": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sailfishos-chum/bugger"
+        },
+        "github.com_sailfishos-chum_ownkeepass": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sailfishos-chum/ownkeepass"
+        },
+        "github.com_sailfishos-chum_sailfishos-chum-gui": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sailfishos-chum/sailfishos-chum-gui"
+        },
+        "github.com_sailfishos-open_sailfish-device-encryption-community-settings" : {
+            "ms-between-poll" : 86400000,
+            "url" : "https://github.com/sailfishos-open/sailfish-device-encryption-community-settings"
+        },
+        "github.com_sailfishos-open_sailfish-device-encryption-community-wizard": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sailfishos-open/sailfish-device-encryption-community-wizard"
+        },
+        "github.com_sailfishos-open_sailfish-fpd-community-test": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sailfishos-open/sailfish-fpd-community-test"
+        },
+        "github.com_sailfishos-open_waydroid": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sailfishos-open/waydroid"
+        },
+        "github.com_sailfishos-patches_partnerspacemanager": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sailfishos-patches/partnerspacemanager"
+        },
+        "github.com_sailfishos-patches_patchmanager": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sailfishos-patches/patchmanager"
+        },
+        "github.com_sailfishos-patches_sailfish-qml": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sailfishos-patches/sailfish-qml"
+        },
+        "github.com_sailfishos_connectionagent": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sailfishos/connectionagent"
+        },
+        "github.com_sailfishos_crash-reporter": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sailfishos/crash-reporter"
+        },
+        "github.com_sailfishos_mapplauncherd-booster-browser": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sailfishos/mapplauncherd-booster-browser"
+        },
+        "github.com_sailfishos_mapplauncherd-booster-silica": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sailfishos/mapplauncherd-booster-silica"
+        },
+        "github.com_sailfishos_python-sample": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sailfishos/python-sample"
+        },
+        "github.com_sailfishos_sailfish-browser": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sailfishos/sailfish-browser"
+        },
+        "github.com_sailfishos_sailfish-components-webview": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sailfishos/sailfish-components-webview"
+        },
+        "github.com_sailfishos_sailfish-log-viewer": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sailfishos/sailfish-log-viewer"
+        },
+        "github.com_sailfishos_sailfish-office": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sailfishos/sailfish-office"
+        },
+        "github.com_sailfishos_sailfish-polkit-agent": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sailfishos/sailfish-polkit-agent"
+        },
+        "github.com_sailfishos_sailfish-qtcreator": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sailfishos/sailfish-qtcreator"
+        },
+        "github.com_sailfishos_sailfish-secrets": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sailfishos/sailfish-secrets"
+        },
+        "github.com_sailfishos_sailfish-utilities": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sailfishos/sailfish-utilities"
+        },
+        "github.com_sailfishos_sample-app-cppqml": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sailfishos/sample-app-cppqml"
+        },
+        "github.com_sailfishos_sdk-harbour-rpmvalidator": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sailfishos/sdk-harbour-rpmvalidator"
+        },
+        "github.com_sailfishos_sdk-user-manual": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sailfishos/sdk-user-manual"
+        },
+        "github.com_sand1k_sm-demo": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sand1k/sm-demo"
+        },
+        "github.com_sargo-devel_harbour-searchnemo": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sargo-devel/harbour-searchnemo"
+        },
+        "github.com_savegame_harbour-mattermost": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/savegame/harbour-mattermost"
+        },
+        "github.com_scharel_harbour-nextcloudnotes": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/scharel/harbour-nextcloudnotes"
+        },
+        "github.com_scottcunningham_SailfishHN": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/scottcunningham/SailfishHN"
+        },
+        "github.com_scottcunningham_locomotive": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/scottcunningham/locomotive"
+        },
+        "github.com_sebiva_travelplanner": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sebiva/travelplanner"
+        },
+        "github.com_seiichiro0185_sailotp": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/seiichiro0185/sailotp"
+        },
+        "github.com_sftfjugg_qt": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sftfjugg/qt"
+        },
+        "github.com_sigurg_VoltFish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sigurg/VoltFish"
+        },
+        "github.com_skvark_Asterism": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/skvark/Asterism"
+        },
+        "github.com_skvark_ChameleonHalf": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/skvark/ChameleonHalf"
+        },
+        "github.com_skvark_JuveFood": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/skvark/JuveFood"
+        },
+        "github.com_skvark_SailCast": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/skvark/SailCast"
+        },
+        "github.com_skvark_SailKino": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/skvark/SailKino"
+        },
+        "github.com_skvark_Textractor": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/skvark/Textractor"
+        },
+        "github.com_skyline71_AuroraSDK": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/skyline71/AuroraSDK"
+        },
+        "github.com_sleepsounds_jolla-kbd-flick-jp": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sleepsounds/jolla-kbd-flick-jp"
+        },
+        "github.com_smokku_fossilink": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/smokku/fossilink"
+        },
+        "github.com_smortex_harbour-reotahiti": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/smortex/harbour-reotahiti"
+        },
+        "github.com_smortex_harbour-teretahiti": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/smortex/harbour-teretahiti"
+        },
+        "github.com_smortex_harbour-torch": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/smortex/harbour-torch"
+        },
+        "github.com_smurfy_fahrplan": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/smurfy/fahrplan"
+        },
+        "github.com_someonewithpc_gnufm": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/someonewithpc/gnufm"
+        },
+        "github.com_sonhador82_auroraos-gps-tracker": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sonhador82/auroraos-gps-tracker"
+        },
+        "github.com_speactra_harbour-themepack-n9ish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/speactra/harbour-themepack-n9ish"
+        },
+        "github.com_spiritEcosse_bible": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/spiritEcosse/bible"
+        },
+        "github.com_sprainbrains_whisperfish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sprainbrains/whisperfish"
+        },
+        "github.com_sremes_harbour-hotspot": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sremes/harbour-hotspot"
+        },
+        "github.com_steffen-foerster_sailfish-barcode": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/steffen-foerster/sailfish-barcode"
+        },
+        "github.com_steffen-foerster_sailfish-diigo": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/steffen-foerster/sailfish-diigo"
+        },
+        "github.com_sthocs_harbour-bikeme": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/sthocs/harbour-bikeme"
+        },
+        "github.com_stoefelz_harbour-kleinanzeigen-viewer": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/stoefelz/harbour-kleinanzeigen-viewer"
+        },
+        "github.com_storeman-developers_harbour-mashka": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/storeman-developers/harbour-mashka"
+        },
+        "github.com_storeman-developers_harbour-storeman": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/storeman-developers/harbour-storeman"
+        },
+        "github.com_szopin_harbour-SailTRON": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/szopin/harbour-SailTRON"
+        },
+        "github.com_szopin_harbour-discourser": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/szopin/harbour-discourser"
+        },
+        "github.com_szopin_harbour-sailsn": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/szopin/harbour-sailsn"
+        },
+        "github.com_szopin_harbour-sfos-forum-viewer": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/szopin/harbour-sfos-forum-viewer"
+        },
+        "github.com_szopin_harbour-tide-clone": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/szopin/harbour-tide-clone"
+        },
+        "github.com_szopin_harbour-warsawbus": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/szopin/harbour-warsawbus"
+        },
+        "github.com_taaem_harbour-teilr": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/taaem/harbour-teilr"
+        },
+        "github.com_tadzik_HatPursuit": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/tadzik/HatPursuit"
+        },
+        "github.com_tadzik_harbour-bootyhunter": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/tadzik/harbour-bootyhunter"
+        },
+        "github.com_tadzik_harbour-cointracker": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/tadzik/harbour-cointracker"
+        },
+        "github.com_tadzik_harbour-daily": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/tadzik/harbour-daily"
+        },
+        "github.com_tadzik_harbour-dndhelper": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/tadzik/harbour-dndhelper"
+        },
+        "github.com_tadzik_harbour-wordinvaders": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/tadzik/harbour-wordinvaders"
+        },
+        "github.com_tanghus_kitchen-timer-qml": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/tanghus/kitchen-timer-qml"
+        },
+        "github.com_tardypad_sailfishos-daily-comics": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/tardypad/sailfishos-daily-comics"
+        },
+        "github.com_tardypad_sailfishos-somafm": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/tardypad/sailfishos-somafm"
+        },
+        "github.com_teleshoes_okb-keyboard": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/teleshoes/okb-keyboard"
+        },
+        "github.com_teleshoes_sx-config": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/teleshoes/sx-config"
+        },
+        "github.com_therecipe_qt": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/therecipe/qt"
+        },
+        "github.com_thigg_sailing-the-flood-to-java": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/thigg/sailing-the-flood-to-java"
+        },
+        "github.com_thigg_sailing-to-coffee": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/thigg/sailing-to-coffee"
+        },
+        "github.com_thigg_throwaway-demonstration-rpoject": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/thigg/throwaway-demonstration-rpoject"
+        },
+        "github.com_titilambert_harbour-seadevil": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/titilambert/harbour-seadevil"
+        },
+        "github.com_titilambert_harbour-squilla": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/titilambert/harbour-squilla"
+        },
+        "github.com_tlangens_cverter": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/tlangens/cverter"
+        },
+        "github.com_toerb_batagur": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/toerb/batagur"
+        },
+        "github.com_tomyri_Sabas": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/tomyri/Sabas"
+        },
+        "github.com_tunp_monavsailfish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/tunp/monavsailfish"
+        },
+        "github.com_tuokar_Maksimit": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/tuokar/Maksimit"
+        },
+        "github.com_tuokar_Trigonon": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/tuokar/Trigonon"
+        },
+        "github.com_tworaz_quicksilver": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/tworaz/quicksilver"
+        },
+        "github.com_tworaz_sailfish-ytplayer": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/tworaz/sailfish-ytplayer"
+        },
+        "github.com_unsanded_harbour-mapp": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/unsanded/harbour-mapp"
+        },
+        "github.com_ursfassler_summation": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/ursfassler/summation"
+        },
+        "github.com_uvatbc_qgvdial": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/uvatbc/qgvdial"
+        },
+        "github.com_veskuh_shuffle": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/veskuh/shuffle"
+        },
+        "github.com_virgi26_harbour-vk-music": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/virgi26/harbour-vk-music"
+        },
+        "github.com_vla5924-practice_mobile-systems": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/vla5924-practice/mobile-systems"
+        },
+        "github.com_vmatare_patunnel": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/vmatare/patunnel"
+        },
+        "github.com_vuorisalmi_ambienticon": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/vuorisalmi/ambienticon"
+        },
+        "github.com_vuorisalmi_harbour-orienteeringcompass": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/vuorisalmi/harbour-orienteeringcompass"
+        },
+        "github.com_walokra_colordots": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/walokra/colordots"
+        },
+        "github.com_walokra_falldown": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/walokra/falldown"
+        },
+        "github.com_walokra_haikala": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/walokra/haikala"
+        },
+        "github.com_walokra_sailimgur": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/walokra/sailimgur"
+        },
+        "github.com_wdehoog_shoutcast-sailfish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/wdehoog/shoutcast-sailfish"
+        },
+        "github.com_xeppaka_LentaReader": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/xeppaka/LentaReader"
+        },
+        "github.com_yajo10_harbour-expenditure": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/yajo10/harbour-expenditure"
+        },
+        "github.com_yajo10_harbour-imgorganizer": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/yajo10/harbour-imgorganizer"
+        },
+        "github.com_yeatse_cnbeta-qt": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/yeatse/cnbeta-qt"
+        },
+        "github.com_yeatse_tbclient": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/yeatse/tbclient"
+        },
+        "github.com_yekmen_qratp": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/yekmen/qratp"
+        },
+        "github.com_yeoldegrove_harbour-qmlpass": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/yeoldegrove/harbour-qmlpass"
+        },
+        "github.com_yewrepo_PPTFlashlight": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/yewrepo/PPTFlashlight"
+        },
+        "github.com_yoktobit_harbour-qrscany": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/yoktobit/harbour-qrscany"
+        },
+        "github.com_yuchiraq_beats_store": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/yuchiraq/beats_store"
+        },
+        "github.com_yurumi_harbour-sailabag": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/yurumi/harbour-sailabag"
+        },
+        "github.com_zeburon_sailfish-batterylog": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/zeburon/sailfish-batterylog"
+        },
+        "github.com_zeburon_sailfish-cowsay": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/zeburon/sailfish-cowsay"
+        },
+        "github.com_zeburon_sailfish-solarsystem": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/zeburon/sailfish-solarsystem"
+        },
+        "github.com_ziggy42_Expense": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/ziggy42/Expense"
+        },
+        "github.com_zuh_taivaanvahti-jolla": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/zuh/taivaanvahti-jolla"
+        },
+        "github.com_zuh_taivaanvahti-qt": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/zuh/taivaanvahti-qt"
+        },
+        "github.com_zwieberl_harbour-fishtheke": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/zwieberl/harbour-fishtheke"
+        },
+        "gitlab.com_HenkKalkwater_harbour-sailfin": {
+            "ms-between-poll": 86400000,
+            "url": "https://gitlab.com/HenkKalkwater/harbour-sailfin"
+        },
+        "gitlab.com_Toxer_toxer-sfos": {
+            "ms-between-poll": 86400000,
+            "url": "https://gitlab.com/Toxer/toxer-sfos"
+        },
+        "gitlab.com_cy8aer_podqast": {
+            "ms-between-poll": 86400000,
+            "url": "https://gitlab.com/cy8aer/podqast"
+        },
+        "gitlab.com_dracks_flight-tracker-slx": {
+            "ms-between-poll": 86400000,
+            "url": "https://gitlab.com/dracks/flight-tracker-slx"
+        },
+        "gitlab.com_dracks_quicklaunchslx": {
+            "ms-between-poll": 86400000,
+            "url": "https://gitlab.com/dracks/quicklaunchslx"
+        },
+        "gitlab.com_helfio_harbour-pepefish": {
+            "ms-between-poll": 86400000,
+            "url": "https://gitlab.com/helfio/harbour-pepefish"
+        },
+        "gitlab.com_mkiol_jupii": {
+            "ms-between-poll": 86400000,
+            "url": "https://gitlab.com/mkiol/jupii"
+        },
+        "gitlab.com_nobodyinperson_harbour-opensensefish": {
+            "ms-between-poll": 86400000,
+            "url": "https://gitlab.com/nobodyinperson/harbour-opensensefish"
+        },
+        "gitlab.com_nobodyinperson_harbour-socarea": {
+            "ms-between-poll": 86400000,
+            "url": "https://gitlab.com/nobodyinperson/harbour-socarea"
+        },
+        "gitlab.com_pchelnik_harbour-mattermost": {
+            "ms-between-poll": 86400000,
+            "url": "https://gitlab.com/pchelnik/harbour-mattermost"
+        },
+        "gitlab.com_pherjung_harbour-deepfish": {
+            "ms-between-poll": 86400000,
+            "url": "https://gitlab.com/pherjung/harbour-deepfish"
+        },
+        "gitlab.com_sailtrix_harbour-sailtrix": {
+            "ms-between-poll": 86400000,
+            "url": "https://gitlab.com/sailtrix/harbour-sailtrix"
+        },
+        "gitlab.com_takimata_harbour-battery-charging-control": {
+            "ms-between-poll": 86400000,
+            "url": "https://gitlab.com/takimata/harbour-battery-charging-control"
+        },
+        "gitlab.com_tfischer_BibSearch": {
+            "ms-between-poll": 86400000,
+            "url": "https://gitlab.com/tfischer/BibSearch"
+        },
+        "gitlab.com_whisperfish_whisperfish": {
+            "ms-between-poll": 86400000,
+            "url": "https://gitlab.com/whisperfish/whisperfish"
+        },
+        "redmine.casenave.fr_sfos_harbour-sextant.git" : {
+            "ms-between-poll" : 86400000,
+            "url" : "https://redmine.casenave.fr/sfos/harbour-sextant.git",
+            "url-pattern": {
+                "base-url": "https://redmine.casenave.fr/projects/harbour-sextant/repository/48/revisions/{rev}/entry/{path}{anchor}"
+            }
+        }
+    }
+}
