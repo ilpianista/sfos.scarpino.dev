@@ -246,10 +246,6 @@
             "ms-between-poll": 86400000,
             "url": "https://github.com/AlexGladkov/AuroraOSDemo"
         },
-        "github.com_Alexiril_DirectumJazz": {
-            "ms-between-poll": 86400000,
-            "url": "https://github.com/Alexiril/DirectumJazz"
-        },
         "github.com_Ancelad_sailfishrasp": {
             "ms-between-poll": 86400000,
             "url": "https://github.com/Ancelad/sailfishrasp"
@@ -634,6 +630,10 @@
             "ms-between-poll": 86400000,
             "url": "https://github.com/PawelSpoon/harbour-olive-goes-shopping"
         },
+        "github.com_PawelSpoon_harbour-squeeze-remote" : {
+            "url" : "https://github.com/PawelSpoon/harbour-squeeze-remote",
+            "ms-between-poll" : 86400000
+        },
         "github.com_PawelSpoon_olive-goes-shopping": {
             "ms-between-poll": 86400000,
             "url": "https://github.com/PawelSpoon/olive-goes-shopping"
@@ -897,6 +897,10 @@
         "github.com_achipa_qtinfo": {
             "ms-between-poll": 86400000,
             "url": "https://github.com/achipa/qtinfo"
+        },
+        "github.com_adelnoureddine_harbour-weight-tracker" : {
+            "url" : "https://github.com/adelnoureddine/harbour-weight-tracker",
+            "ms-between-poll" : 86400000
         },
         "github.com_aebruno_angelfish": {
             "ms-between-poll": 86400000,
@@ -1550,6 +1554,10 @@
             "ms-between-poll": 86400000,
             "url": "https://github.com/jdrescher2006/OBDFish"
         },
+        "github.com_jeremiegrenier_Sailfish" : {
+            "url" : "https://github.com/jeremiegrenier/Sailfish",
+            "ms-between-poll" : 86400000
+        },
         "github.com_jgibbon_Talefish": {
             "ms-between-poll": 86400000,
             "url": "https://github.com/jgibbon/Talefish"
@@ -1850,6 +1858,10 @@
             "ms-between-poll": 86400000,
             "url": "https://github.com/micuintus/harbour-Berlin-Vegan"
         },
+        "github.com_miikasda_harbour-screentime" : {
+            "url" : "https://github.com/miikasda/harbour-screentime",
+            "ms-between-poll" : 86400000
+        },
         "github.com_miikasda_harbour-skruuvi": {
             "ms-between-poll": 86400000,
             "url": "https://github.com/miikasda/harbour-skruuvi"
@@ -1937,6 +1949,10 @@
         "github.com_monich_harbour-logger": {
             "ms-between-poll": 86400000,
             "url": "https://github.com/monich/harbour-logger"
+        },
+        "github.com_monich_harbour-matkakortti" : {
+            "url" : "https://github.com/monich/harbour-matkakortti",
+            "ms-between-poll" : 86400000
         },
         "github.com_monich_harbour-mybackup": {
             "ms-between-poll": 86400000,
@@ -2525,6 +2541,10 @@
         "github.com_sailfishos-patches_partnerspacemanager": {
             "ms-between-poll": 86400000,
             "url": "https://github.com/sailfishos-patches/partnerspacemanager"
+        },
+        "github.com_sailfishos-patches_partnerspaces" : {
+            "url" : "https://github.com/sailfishos-patches/partnerspaces",
+            "ms-between-poll" : 86400000
         },
         "github.com_sailfishos-patches_patchmanager": {
             "ms-between-poll": 86400000,
