@@ -637,6 +637,10 @@
             "ms-between-poll": 86400000,
             "url": "https://github.com/PawelSpoon/harbour-olive-goes-shopping"
         },
+        "github.com_PawelSpoon_harbour-sailkick": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/PawelSpoon/harbour-sailkick"
+        },
         "github.com_PawelSpoon_harbour-squeeze-remote" : {
             "url" : "https://github.com/PawelSpoon/harbour-squeeze-remote",
             "ms-between-poll" : 86400000
@@ -780,6 +784,10 @@
         "github.com_VeggieSailor_VeggieSailor": {
             "ms-between-poll": 86400000,
             "url": "https://github.com/VeggieSailor/VeggieSailor"
+        },
+        "github.com_VoiceShifter_MireaApp": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/VoiceShifter/MireaApp"
         },
         "github.com_Wnt_PlanningPoker": {
             "ms-between-poll": 86400000,
@@ -1965,6 +1973,10 @@
             "ms-between-poll": 86400000,
             "url": "https://github.com/monich/openrepos-clock-settings"
         },
+        "github.com_monich_sailfish-qrshare": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/monich/sailfish-qrshare"
+        },
         "github.com_mordae_harbour-slovnik": {
             "ms-between-poll": 86400000,
             "url": "https://github.com/mordae/harbour-slovnik"
@@ -2096,6 +2108,10 @@
         "github.com_oniongarlic_harbour-hellogps": {
             "ms-between-poll": 86400000,
             "url": "https://github.com/oniongarlic/harbour-hellogps"
+        },
+        "github.com_osanwe_harbour-kcat": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/osanwe/harbour-kcat"
         },
         "github.com_osanwe_harbour-serra": {
             "ms-between-poll": 86400000,
@@ -2772,6 +2788,10 @@
         "github.com_szopin_harbour-discourser": {
             "ms-between-poll": 86400000,
             "url": "https://github.com/szopin/harbour-discourser"
+        },
+        "github.com_szopin_harbour-neliapila": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/szopin/harbour-neliapila"
         },
         "github.com_szopin_harbour-sailsn": {
             "ms-between-poll": 86400000,
