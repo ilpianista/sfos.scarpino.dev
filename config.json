@@ -51,6 +51,13 @@
                 "base-url": "{url}/src/commit/{rev}/{path}{anchor}"
             }
         },
+        "codeberg.org_nephros_harbour-aihorde": {
+            "ms-between-poll": 86400000,
+            "url": "https://codeberg.org/nephros/harbour-aihorde",
+            "url-pattern": {
+                "base-url": "{url}/src/commit/{rev}/{path}{anchor}"
+            }
+        },
         "codeberg.org_nephros_harbour-fbjail": {
             "ms-between-poll": 86400000,
             "url": "https://codeberg.org/nephros/harbour-fbjail",
@@ -1646,10 +1653,6 @@
             "ms-between-poll": 86400000,
             "url": "https://github.com/keygenqt/flutter-aWords"
         },
-        "github.com_keygenqt_km-shop": {
-            "ms-between-poll": 86400000,
-            "url": "https://github.com/keygenqt/km-shop"
-        },
         "github.com_khmaksim_WebDRIVE2": {
             "ms-between-poll": 86400000,
             "url": "https://github.com/khmaksim/WebDRIVE2"
@@ -2717,6 +2720,10 @@
         "github.com_sonhador82_auroraos-gps-tracker": {
             "ms-between-poll": 86400000,
             "url": "https://github.com/sonhador82/auroraos-gps-tracker"
+        },
+        "github.com_soulsource_passfish": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/soulsource/passfish"
         },
         "github.com_speactra_harbour-themepack-n9ish": {
             "ms-between-poll": 86400000,
