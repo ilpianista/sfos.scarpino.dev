@@ -51,6 +51,13 @@
                 "base-url": "{url}/src/commit/{rev}/{path}{anchor}"
             }
         },
+        "codeberg.org_nephros_harbour-cloudmarks": {
+            "ms-between-poll": 86400000,
+            "url": "https://codeberg.org/nephros/cloudmarks",
+            "url-pattern": {
+                "base-url": "{url}/src/commit/{rev}/{path}{anchor}"
+            }
+        },
         "codeberg.org_nephros_harbour-aihorde": {
             "ms-between-poll": 86400000,
             "url": "https://codeberg.org/nephros/harbour-aihorde",
@@ -1493,10 +1500,6 @@
             "ms-between-poll": 86400000,
             "url": "https://github.com/huntor1994/HPDF"
         },
-        "github.com_hwesselmann_harbour-cloudmarks": {
-            "ms-between-poll": 86400000,
-            "url": "https://github.com/hwesselmann/harbour-cloudmarks"
-        },
         "github.com_hwesselmann_harbour-kormoran": {
             "ms-between-poll": 86400000,
             "url": "https://github.com/hwesselmann/harbour-kormoran"
@@ -1972,6 +1975,10 @@
         "github.com_monich_openrepos-clock-settings": {
             "ms-between-poll": 86400000,
             "url": "https://github.com/monich/openrepos-clock-settings"
+        },
+        "github.com_monich_sailfish-barcode": {
+            "ms-between-poll": 86400000,
+            "url": "https://github.com/monich/sailfish-barcode"
         },
         "github.com_monich_sailfish-qrshare": {
             "ms-between-poll": 86400000,
@@ -2756,10 +2763,6 @@
         "github.com_sremes_harbour-hotspot": {
             "ms-between-poll": 86400000,
             "url": "https://github.com/sremes/harbour-hotspot"
-        },
-        "github.com_steffen-foerster_sailfish-barcode": {
-            "ms-between-poll": 86400000,
-            "url": "https://github.com/steffen-foerster/sailfish-barcode"
         },
         "github.com_steffen-foerster_sailfish-diigo": {
             "ms-between-poll": 86400000,
