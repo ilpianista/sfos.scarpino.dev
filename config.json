@@ -2716,10 +2716,6 @@
             "ms-between-poll": 86400000,
             "url": "https://github.com/sleepsounds/jolla-kbd-flick-jp"
         },
-        "github.com_smokku_fossilink": {
-            "ms-between-poll": 86400000,
-            "url": "https://github.com/smokku/fossilink"
-        },
         "github.com_smortex_harbour-reotahiti": {
             "ms-between-poll": 86400000,
             "url": "https://github.com/smortex/harbour-reotahiti"
